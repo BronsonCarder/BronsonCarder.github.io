@@ -1,0 +1,11 @@
+.card{
+  background-color: var(--lightaccent);
+  float: right;
+  display: inline-block;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.card p {
+  margin: 0;
+}

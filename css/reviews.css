@@ -38,4 +38,13 @@ p {
 
 .index {
   margin-bottom: 4rem;
+  background-color: var(--lightaccent);
+  display: inline-block;
+  padding: .2rem;
+  padding-right: .7rem;
+  margin-left: 3rem;
+}
+
+ul {
+  margin-bottom:.5rem;
 }
