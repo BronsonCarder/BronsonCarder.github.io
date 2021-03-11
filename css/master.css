@@ -38,6 +38,20 @@ a:hover {
   text-decoration: underline;
 }
 
+cite {
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+p {
+  text-indent: 5%;
+}
+
+
 /*Header Formatting*/
 header {
   display: grid;
