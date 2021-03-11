@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <title>Kailua Kove Bed & Breakfast</title>
+</head>
+
+<body>
+  <header class="header sticky-top">
+    <nav>
+      <ul class="nav nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <h1>Kailua Kove Bed & Breakfast </h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.185087411385!2d-157.74923348506073!3d21.421968785786643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0015399eb53f0b%3A0xf8b93ccbb6bb3ebe!2s804%20Mokapu%20Rd%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1614990095501!5m2!1sen!2sus"
+      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+    <h2>Contact Info:</h2>
+    <p>For booking and/or reservation requests, please email us and provide the number of nights you wish to stay, your check out day and date, along with any questions you may have. Phone numbers are requested in case of any email address errors for
+      us
+      to be able to reply promptly to you.</p>
+    <div class="info">
+      <p>Address: 804 Mokapu Road • Kailua HI 96734</p>
+      <p>Email: paradisepalmbnb@gmail.com</p>
+      <p>Phone: 808-261-1431</p>
+    </div>
+    <h2>Contact Us:</h2>
+
+    <form>
+      <div class="contact">
+        <div class="mb-3">
+          <label for="email" class="form-label email">Email address:</label>
+          <input autofocus placeholder="Email" type="email" class="form-control" id="email">
+        </div>
+
+        <div class="mb-3">
+          <label for="tel" class="form-label tel">Telephone:</label>
+          <input placeholder="Phone" class="form-control" type="tel" id="tel">
+        </div>
+      </div>
+
+      <div class="mb-3 dateStart">
+        <label for="dateStart" class="form-label">Start of Stay:</label>
+        <input class="form-control" type="date" value="2021-03-05" id="dateStart">
+      </div>
+
+      <div class="mb-3 dateEnd">
+        <label for="dateEnd" class="form-label">End of Stay:</label>
+        <input class="form-control" type="date" value="2021-03-05" id="dateEnd">
+      </div>
+
+      <div class="mb-3 roomType">
+        <label for="select" class="form-label select">Select Room Type: </label>
+        <select class="form-select" aria-label="Default select" id="select">
+          <option selected></option>
+          <option value="1">Plumeria</option>
+          <option value="2">Maile</option>
+        </select>
+      </div>
+
+      <div class="mb-3 textArea">
+        <label for="textarea" class="form-label textArea">Additional Comments or Questions:</label>
+        <textarea placeholder="Comments or Questions..." class="form-control" id="textarea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </article>
+
+  <footer class="footer text-muted">
+    <p>ParadisePalmBnB@gmail.com<</p>
+    <p class="dash">-</p>
+    <p>(808)261-1431</p>
+    <p class="dash">-</p>
+    <p>804 Mokapu Road, Kailua, HI 96734</p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

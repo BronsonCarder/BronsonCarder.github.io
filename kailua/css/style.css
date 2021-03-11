@@ -1,0 +1,151 @@
+.amenities {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 12px;
+  padding: 0;
+}
+
+.amenities li {
+  text-align: center;
+  list-style: none;
+}
+
+.row {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: .5rem;
+  margin:.4rem;
+  box-shadow: 0 1px 5px rgba(42, 42, 69, 0.8);
+  background-color: rgba(148, 255, 250, .7);
+}
+
+.btn:hover {
+  background-color: #2FCFC6;
+  color: black;
+}
+
+.btn {
+  background-color: #da5b67;
+  border-color:black;
+}
+
+.carousel {
+  margin: 1rem;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.info {
+  padding-left: 3rem;
+}
+
+.map {
+  float: right;
+  padding: .5rem;
+}
+
+form {
+  display: grid;
+  grid-template-areas: 'contact contact contact'
+    'dateStart dateEnd roomType'
+    'textArea textArea textArea'
+    'btn btn btn';
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  grid-gap: 1rem 2rem;
+}
+
+.contact {
+  grid-area: contact;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  padding: 0;
+  grid-gap: 2rem;
+}
+
+.dateEnd {
+  grid-area: dateEnd;
+}
+
+.dateStart {
+  grid-area: dateStart;
+}
+
+.roomType {
+  grid-area: roomType;
+}
+
+.textArea {
+  grid-area: textArea;
+  display: block;
+}
+
+.btn {
+  grid-area: btn;
+}
+
+@media (max-width: 1007px) {
+  form {
+    grid-template-areas: 'contact contact'
+      'dateStart dateEnd'
+      'roomType roomType'
+      'textArea textArea'
+      'btn btn';
+  }
+
+  .roomType {
+    width: 100%;
+  }
+}
+
+@media (max-width: 845px) {
+  .amenities {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dash {
+    display: none;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  footer p {
+    padding: .4em;
+  }
+
+  article {
+    margin-bottom: 110.4px;
+  }
+
+  .map {
+    float: none;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 704px) {
+  form {
+    grid-template-areas: 'contact'
+      'dateStart'
+      'dateEnd'
+      'roomType'
+      'textArea'
+      'btn';
+  }
+}
+
+@media (max-width: 579px){
+  .amenities {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

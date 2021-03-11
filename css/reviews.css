@@ -1,0 +1,38 @@
+.review {
+  border: 2px solid var(--dark);
+  padding-left: .5rem;
+  padding-right: .2rem;
+  margin-bottom: 1.2rem;
+  margin-top: .2rem;
+}
+
+.title{
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  margin-top: -1.2rem;
+  margin-left: 2rem;
+  max-width: 50%;
+  white-space: nowrap;
+}
+
+h2 {
+  padding-right: 10px;
+}
+
+h2, cite {
+  background: rgb(108, 104, 104) none repeat scroll 0 0;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+cite {
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+p {
+  text-indent: 5%;
+}

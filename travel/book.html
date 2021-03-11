@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kyoto Travel Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><img class="icon" src="icons8-home-100.png" alt="Home">
+            <div class="large">
+              Home
+            </div>
+          </a></li>
+        <li><a href="info.html"><img class="icon" src="icons8-info-100.png" alt="Info">
+            <div class="large">
+              Info
+            </div>
+          </a></li>
+        <li><a href="http://www.kyototourism.org/en/"><img class="icon" src="icons8-external-link-100.png" alt="Kyoto Official">
+            <div class="large">
+              Kyoto Official
+            </div>
+          </a></li>
+        <li><a href="book.html"><img class="icon" src="icons8-contacts-100.png" alt="Book">
+            <div class="large">
+              Book
+            </div>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <form action="thankyou.html" method="get">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fname">First Name:
+          <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"></label>
+        <label for="lname">Last Name:
+          <input type="text" name="lname" id="lname" required placeholder="Last Name"></label>
+        <label for="email">Email Address:
+          <input type="email" name="email" id="email" required placeholder="Email"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Date</legend>
+        <label for="month" style="float:left;">Month:
+          <select name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select></label>
+        <label for="num" style="float:right; width:50%">Day:
+          <input type="number" name="num" min=1 max=31></label>
+      </fieldset>
+      <fieldset>
+        <legend>Morning or Evening?</legend>
+        <label for="am" style="float:left; padding-bottom:0px; width:50%">Morning (AM)
+          <input type="radio" name="time" id="am" value="AM"></label>
+        <label for="pm" style="float:right; padding-bottom:0px; width:50%">Evening (PM)
+          <input type="radio" name="time" id="pm" value="PM"></label>
+      </fieldset>
+      <fieldset style="text-align:center;">
+        <textarea name="textarea" rows="5" cols="77" placeholder="Additional Information..."></textarea>
+      </fieldset>
+      <div style="text-align:center;">
+        <br><input type="submit">
+      </div>
+    </form>
+  </article>
+
+  <footer>
+    <table>
+      <tr>
+        <td>bc0937119@otc.edu &#169; 2/14/21</td>
+        <td>Bronson Carder 417-496-9924</td>
+      </tr>
+    </table>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+/*Index Formatting*/
+.container {
+  position:relative;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 54.1%;
+}
+
+.video {
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*Bait Formatting*/
+.wood {
+  background-image: url(images/pexels-photo-163999.jpeg);
+  background-size: cover;
+}
+
+.menu {
+  display: grid;
+  grid-template-areas:
+    'menu-head menu-head'
+    'live-bait live-fish'
+    'cold-bait live-fish';
+  padding-left: 2rem;
+  color: var(--light);
+}
+
+@media(max-width: 809px) {
+  .menu {
+    grid-template-areas:
+      'menu-head'
+      'live-fish'
+      'live-bait'
+      'cold-bait';
+  }
+}
+
+.menu-head {
+  grid-area: menu-head;
+  text-align: center;
+}
+
+.live-bait {
+  grid-area: live-bait;
+}
+
+.cold-bait {
+  grid-area: cold-bait;
+}
+
+.live-fish {
+  grid-area: live-fish;
+  align-content: center;
+}
+
+.sub-menu {
+  grid-column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Georgia, sans-serif;
+}
+
+.menu-head aside {
+  padding-bottom: .5rem;
+}
+
+.sub-menu p {
+  text-align: right;
+  font-weight: bold;
+}
+
+.sub-menu cite {
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: text-bottom;
+}
+
+.sub-menu h2 {
+  margin: 0;
+}
+
+/*Services Formatting*/
+.service {
+  display: grid;
+  grid-template-columns: 2fr .8fr;
+  grid-gap: .5rem;
+}
+
+.right {
+  background: var(--dark);
+  color: var(--light);
+  font-family: Georgia,sans-serif;
+  text-align: center;
+  box-shadow: var(--shadow);
+  padding: .5rem;
+  margin-right: 5rem;
+}
+
+.right img {
+  max-width: 100%;
+}

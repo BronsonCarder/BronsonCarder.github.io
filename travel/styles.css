@@ -1,0 +1,201 @@
+/*General Formatting*/
+html {
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  background-image: url('pexels-photo-402028.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right bottom;
+  font-family: Helvetica, Georgia, sans-serif;
+}
+
+a {
+  font-variant: small-caps;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+
+/*Navigation formatting*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%
+}
+
+nav li {
+  background-color: rgba(0, 128, 128, .7);
+  list-style-type: none;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  text-align: center;
+  height: 100px;
+}
+
+nav img {
+  width: auto;
+  height: 100px !important;
+}
+
+/*Article Formatting*/
+article {
+  background-color: rgba(251, 250, 245, .7);
+  margin: auto;
+  width: 80%;
+}
+
+h1 {
+  padding-left: 2em;
+  padding-top: 1em;
+  margin-top: 120px;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-size: 90%;
+  padding-left: 1em;
+  margin-top: 0px;
+}
+
+blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: justify;
+}
+
+cite {
+  padding-left: 2em;
+}
+
+p {
+  text-align: justify;
+  text-indent: 42px;
+  padding-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+}
+
+/*Form Formatting*/
+form {
+  margin-top: 120px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 1.2em;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+input {
+  position: absolute;
+  left: 23%;
+  width: 75%
+}
+
+input[type="submit"] {
+  width: initial;
+  position: initial;
+}
+
+input[type="radio"] {
+  position: initial;
+  display: inline-block;
+  width: initial;
+}
+
+textarea {
+  width: 90%;
+  resize: none;
+}
+
+/*Footer Formatting*/
+footer {
+  background-color: rgba(0, 128, 128, .7);
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+footer td {
+  font-variant: small-caps;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  text-align: center;
+}
+
+/*Break point Formatting*/
+@media screen and (min-width: 736px) {
+  .icon {
+    width: auto;
+    height: 80px !important;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  article, p {
+    width: 90%;
+  }
+
+  blockquote {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  img {
+    width: 60%;
+    height: 40%;
+  }
+}
