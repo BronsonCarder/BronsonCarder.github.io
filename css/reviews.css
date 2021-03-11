@@ -24,3 +24,18 @@ h2, cite {
   margin-top:auto;
   margin-bottom: auto;
 }
+
+p {
+  text-indent: 5%;
+}
+
+.anchor{
+  display: block;
+  position: relative;
+  top: -115px;
+  visibility: hidden;
+}
+
+.index {
+  margin-bottom: 4rem;
+}

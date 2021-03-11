@@ -47,11 +47,6 @@ h3 {
   font-weight: bolder;
 }
 
-p {
-  text-indent: 5%;
-}
-
-
 /*Header Formatting*/
 header {
   display: grid;
