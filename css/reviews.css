@@ -2,8 +2,9 @@
   border: 2px solid var(--dark);
   padding-left: .5rem;
   padding-right: .2rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
   margin-top: .2rem;
+  box-shadow: var(--shadow);
 }
 
 .title {
@@ -42,6 +43,7 @@ p {
   padding: .2rem;
   padding-right: .7rem;
   margin-left: 3rem;
+  box-shadow: var(--shadow);
 }
 
 ul {

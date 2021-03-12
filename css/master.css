@@ -24,6 +24,7 @@ article {
 h1 {
   font-family: 'Shadows Into Light', sans-serif;
   text-align: center;
+  text-shadow: 1px 1px 2px var(--dark), 0 0 1em var(--accent);
 }
 
 h2 {
@@ -50,10 +51,6 @@ h3 {
 }
 
 /*Header Formatting*/
-.headTitle {
-  text-shadow: 1px 1px 2px var(--dark), 0 0 1em var(--accent), 0 0 0.2em var(--accent);
-}
-
 header {
   display: grid;
   grid-row: 2;
@@ -71,6 +68,8 @@ header h1 {
   background-position: center;
   text-align: right;
   font-size: 2.5rem;
+  text-shadow: 1px 1px 2px var(--dark), 0 0 1em var(--accent), 0 0 0.2em var(--accent);
+
 }
 
 header ul {
