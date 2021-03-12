@@ -1,11 +1,14 @@
-.card{
+.card {
   background-color: var(--lightaccent);
   float: right;
   display: inline-block;
-  border-radius: 0px;
   text-align: center;
   box-shadow: var(--shadow);
+  margin: 1rem;
+  margin-top: 0;
+  padding: .2rem;
 }
+
 .card p {
   margin: 0;
 }

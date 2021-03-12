@@ -22,3 +22,33 @@ document.addEventListener('play', function(e) {
     }
   }
 }, true);
+
+// Stop carousel from autosliding
+
+// $('.carousel').carousel({interval: false});
+// $(document).on('mouseleave', '.carousel', function() {
+//     $(this).carousel('pause');
+// });
+
+// $.fn.carousel.defaults = {
+//   interval: false
+// , pause: 'hover'
+// }
+
+// $(function() {
+//     $('.carousel').each(function(){
+//         $(this).carousel({
+//             interval: false
+//         });
+//     });
+// });​
+
+// $(document).ready(function() {
+//     $('.gallery-carousel').each(function(){
+//         $(this).carousel({
+//             interval: false
+//         });
+//     });
+// });
+
+// Four different solutions tried and failed... I cannot figure this out
