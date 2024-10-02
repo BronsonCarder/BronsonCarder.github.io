@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\coding.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:coding.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:music.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -39,12 +43,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "coding.html",
+              "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\coding.html",
+              "RelativeDocumentMoniker": "coding.html",
+              "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\coding.html",
+              "RelativeToolTip": "coding.html",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T15:52:19.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "music.html",
               "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html",
               "RelativeDocumentMoniker": "music.html",
               "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html",
               "RelativeToolTip": "music.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAkwCMCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-02T15:25:51.696Z",
               "EditorCaption": ""
