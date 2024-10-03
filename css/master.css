@@ -1,9 +1,9 @@
 :root {
-  --light: #D7D1C2;
-  --dark: #101111;
-  --accent: #731313;
-  --lightaccent: #A7AEA3;
-  --shadow: 0px 1px 5px rgba(27, 25, 26, 0.8)
+    --light: #D7D1C2;
+    --dark: #101111;
+    --accent: #731313;
+    --lightaccent: #a7a4a3;
+    --shadow: 0px 1px 5px rgba(27, 25, 26, 0.8)
 }
 
 body {
@@ -15,7 +15,7 @@ article {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(108, 104, 104);
+  background: rgb(168, 164, 164);
   padding: 1rem;
   color: var(--dark);
   padding-bottom: 65.6px;
