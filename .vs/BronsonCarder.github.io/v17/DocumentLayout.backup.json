@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\reviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\reviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\reviews.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:reviews.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,72 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.css",
-              "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\index.css",
-              "RelativeDocumentMoniker": "css\\index.css",
-              "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\index.css",
-              "RelativeToolTip": "css\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-03T00:51:47.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "reviews.css",
-              "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\reviews.css",
-              "RelativeDocumentMoniker": "css\\reviews.css",
-              "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\reviews.css",
-              "RelativeToolTip": "css\\reviews.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-03T00:49:23.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "master.css",
-              "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\master.css",
-              "RelativeDocumentMoniker": "css\\master.css",
-              "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\css\\master.css",
-              "RelativeToolTip": "css\\master.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-03T00:43:55.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "template.html",
               "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\template.html",
               "RelativeDocumentMoniker": "template.html",
               "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\template.html",
               "RelativeToolTip": "template.html",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-03T00:27:42.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "reviews.html",
               "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\reviews.html",
               "RelativeDocumentMoniker": "reviews.html",
               "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\reviews.html",
               "RelativeToolTip": "reviews.html",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-03T00:24:32.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "music.html",
               "DocumentMoniker": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html",
               "RelativeDocumentMoniker": "music.html",
@@ -131,8 +80,7 @@
               "RelativeToolTip": "music.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T15:25:51.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T15:25:51.696Z"
             }
           ]
         }
