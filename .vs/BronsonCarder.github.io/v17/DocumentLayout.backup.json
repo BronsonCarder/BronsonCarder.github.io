@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,6 +61,10 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "index.html",
@@ -70,8 +74,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-09T15:10:23.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:10:23.261Z"
             },
             {
               "$type": "Document",
@@ -83,8 +86,7 @@
               "RelativeToolTip": "hobbies.html",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-09T15:09:57.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:09:57.366Z"
             },
             {
               "$type": "Document",
@@ -96,8 +98,7 @@
               "RelativeToolTip": "coding.html",
               "ViewState": "AgIAACgAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-09T15:09:47.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:09:47.375Z"
             },
             {
               "$type": "Document",
@@ -109,8 +110,7 @@
               "RelativeToolTip": "contact.html",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-09T15:05:16.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:05:16.568Z"
             },
             {
               "$type": "Document",
@@ -122,8 +122,7 @@
               "RelativeToolTip": "template.html",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-03T00:27:42.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T00:27:42.427Z"
             },
             {
               "$type": "Document",
@@ -135,8 +134,7 @@
               "RelativeToolTip": "reviews.html",
               "ViewState": "AgIAAEMFAAAAAAAAAAAAAGcFAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-03T00:24:32.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T00:24:32.136Z"
             },
             {
               "$type": "Document",
@@ -146,7 +144,7 @@
               "RelativeDocumentMoniker": "music.html",
               "ToolTip": "D:\\Bronson\\Documents\\BronsonCarder.github.io\\music.html",
               "RelativeToolTip": "music.html",
-              "ViewState": "AgIAAGECAAAAAAAAAAAAAIQCAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-02T15:25:51.696Z",
               "EditorCaption": ""
